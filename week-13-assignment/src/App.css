@@ -1,0 +1,56 @@
+nav{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: 18px;
+  padding-top: 3px;
+  
+}
+a{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  padding-top: 7px;
+  justify-content: right;
+  text-align: right;
+}
+nav ul li {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
+  list-style-type: none;
+  margin-right: 3em;
+}
+nav ul li:hover{
+  color: rgb(39, 50, 175);
+}
+/*Login Section*/
+.login{
+  margin: auto;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
+  margin-top: 200px;
+  border: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  padding-top: 20px;
+  max-width: 50%;
+}
+#userName{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
+}
+#password{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
+}
+#signIn{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
+  border: solid;
+}
+#signIn:hover{
+  color: black;
+}
